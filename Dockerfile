@@ -12,7 +12,7 @@ COPY ./app/package.json ./
 COPY ./app/tsconfig.json ./
 
 # Install Node.js dependencies
-RUN npm install --force
+RUN npm install
 
 COPY ./app/vite.config.js ./
 
