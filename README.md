@@ -1,8 +1,10 @@
+Forked from https://github.com/cogentapps/chat-with-gpt
+
 # Chat with GPT
 
 Chat with GPT is an open-source, unofficial ChatGPT app with extra features and more ways to customize your experience. It connects ChatGPT with ElevenLabs to give ChatGPT a realistic human voice.
 
-Try out the hosted version at: https://www.chatwithgpt.ai
+Try out the hosted version at: https://www.chatwithgpt.ai 
 
 Or [self-host with Docker](#running-on-your-own-computer).
 
@@ -44,7 +46,7 @@ Your API key is stored only on your device and never transmitted to anyone excep
 To run on your own device, you can use Docker:
 
 ```
-docker run -v $(pwd)/data:/app/data -p 3000:3000 ghcr.io/cogentapps/chat-with-gpt:release
+docker run -v $(pwd)/data:/app/data -p 3000:3000 ghcr.io/romamik/chat-with-gpt:release
 ```
 
 Then navigate to http://localhost:3000 to view the app.
